@@ -1,0 +1,9 @@
+npm install -g express body-parser sequelize mysql2 --save     
+
+sudo /etc/init.d/mysqld start
+sudo mysql_secure_installation
+
+sudo mysql -uroot -p
+  CREATE DATABASE catalog;
+  
+    GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost' IDENTIFIED BY 'root';
